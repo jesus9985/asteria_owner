@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Asteria Admin</title>
+  <script src="admin.js" defer></script>
+</head>
+<body>
+
+<h2>Asteria Admin Login</h2>
+
+<div id="login-box">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="checkPass()">Login</button>
+  <p id="wrong" style="color:red; display:none;">Wrong password</p>
+</div>
+
+<div id="upload-box" style="display:none;">
+  <h2>Upload Image</h2>
+  <input type="file" id="fileInput">
+  <button onclick="upload()">Upload</button>
+</div>
+
+</body>
+</html>
